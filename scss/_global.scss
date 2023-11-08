@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+
+}
+
+h1 {
+    color: #828282;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    width: 589px;
+}
+
+h2 {
+    color: #828282;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.p1 {
+    color: #828282;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 635px;
+    margin-top: 25px;
+}
+
+h3 {
+    color: #828282;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 676px;
+    margin-top: 16px;
+}
+
+button {
+    width: 160px;
+    height: 56px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+    background: #828282;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.box3 {
+    width: 730px;
+    height: 49px;
+    display: flex;
+    align-items: start;
+    margin-top: 80px;
+}
+
+.item {
+    flex-grow: 1;
+    text-align: center;
+    color: #747474;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+
+    &:nth-child(1) {
+        border-bottom: 5px solid gray;
+        border-radius: 2px;
+        padding-bottom: 20px;
+    }
+
+    &:nth-child(2) {
+        border-bottom: 2px solid gray;
+        padding-bottom: 22px;
+    }
+
+    &:nth-child(3) {
+        border-bottom: 2px solid gray;
+        padding-bottom: 22px;
+    }
+}
+
+.box4 {
+    display: flex;
+    gap: 30px;
+}
+
+.box5 {
+    margin-top: 86px;
+    width: 318px;
+    height: 318px;
+    border-radius: 318px;
+    background: #E9E9E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 93px;
+    margin-top: 126px;
+}
+
+img {
+    width: 87px;
+    height: 87px;
+    fill: black;
+}
